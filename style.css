@@ -226,6 +226,46 @@ body {
     font-size: 0.8rem;
 }
 
+
+.project-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.link-btn {
+    flex: 1;
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.github-btn {
+    color: var(--text-main);
+    border: 1px solid #3f3f46;
+    background-color: transparent;
+}
+
+.github-btn:hover {
+    background-color: #27272a;
+    border-color: var(--text-muted);
+}
+
+.itch-btn {
+    color: #ff4b5a;
+    border: 1px solid #ff4b5a;
+    background-color: transparent;
+}
+
+.itch-btn:hover {
+    background-color: #ff4b5a;
+    color: white;
+}
+
 /* --- Section 3: About & Skills --- */
 .about-section {
     background-color: var(--bg-card);
